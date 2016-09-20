@@ -107,28 +107,6 @@
 
 }
 
-    /*
-    @keyframes #C1R4 {
-        0%        {fill: #000}
-        20%       {fill: #fbcb43}
-        40%, 100% {fill: #000}
-    }
+   
+    
 
-    #C1R4 {
-        animation: C1R4 2.5s ease infinite;
-        }
-    
-    #C1R4--2 {animation-delay: .2s}
-    #C1R4--3 {animation-delay: .4s}
-    #C1R4--4 {animation-delay: .6s}
-    #C1R4--5 {animation-delay: .8s}
-    }
-*/
-    
-/*
-    #C1R4 {
-        animation: shake .2s linear infinite;
-    }
-*/
-    
-/*#C1R1, #C2R1, #C3R1, #C1R2, #C2R2, #C3R2, #C1R3, #C2R3, #C3R3, #C1R4, #C2R4, #C3R4*/
