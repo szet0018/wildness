@@ -1,0 +1,134 @@
+.st4{fill:none;}
+.st5{font-family:'MyriadPro-Regular';}
+.st6{font-size:30px;}
+    
+@media all and (min-width: 1024px) and (max-width: 1280px) { }
+
+@media all and (min-width: 768px) and (max-width: 1024px) { }
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    #C1R1 {
+        animation-name: a;
+        animation-duration: 15.5s;
+        animation-iteration-count: infinite;
+        transform-origin: 50% 50%;
+        display: inline-block;
+    }
+    
+    @keyframes a {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    
+    #C2R1 {
+        animation-name: a2;
+        animation-duration: 0.5s;
+        animation-iteration-count: infinite;
+        transform-origin: 50% 50%;
+        display: inline-block;
+    }
+    
+    @keyframes a2 {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    
+    #C3R1 {
+        animation-name: c;
+        animation-duration: 0.5s;
+        animation-iteration-count: infinite;
+        transform-origin: 50% 50%;
+        display: inline-block;
+    }
+    
+    @keyframes c {
+        0% {
+            transform: rotate(80deg);
+        }
+        100% {
+            transform: rotate(100deg);
+        }
+    }
+    
+    #C1R2:hover {
+        transform: scale(2);
+        transition-property: transform;
+        transition-duration: 3s;
+    }
+    
+    #C2R2:hover {
+        transform: scale(-2);
+        transition-property: transform;
+        transition-duration: 5s;
+    }
+    
+    #C3R2:hover {
+        transform: scale(-4);
+        transition-property: transform;
+        transition-duration: 3s;
+    }
+    
+    #text1:hover {
+        font-size: 7rem;
+        font-weight: 800;
+    }
+    
+    #text2:hover {
+        font-style: oblique;
+        font-size: 30rem;
+        font-weight: 800;
+    }
+    
+    #C3R4 {
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 193px 164px;
+        animation:  spin 4s cubic-bezier(.49,.05,.32,1.04) infinite alternate;
+    }
+    @keyframes spin {
+       50% {
+          transform: rotate(360deg);
+       }
+    }
+}
+    
+
+@media all and (max-width: 480px) {
+     #topButtons, #bottomButtons {
+        display: none;
+    }
+
+}
+
+    /*
+    @keyframes #C1R4 {
+        0%        {fill: #000}
+        20%       {fill: #fbcb43}
+        40%, 100% {fill: #000}
+    }
+
+    #C1R4 {
+        animation: C1R4 2.5s ease infinite;
+        }
+    
+    #C1R4--2 {animation-delay: .2s}
+    #C1R4--3 {animation-delay: .4s}
+    #C1R4--4 {animation-delay: .6s}
+    #C1R4--5 {animation-delay: .8s}
+    }
+*/
+    
+/*
+    #C1R4 {
+        animation: shake .2s linear infinite;
+    }
+*/
+    
+/*#C1R1, #C2R1, #C3R1, #C1R2, #C2R2, #C3R2, #C1R3, #C2R3, #C3R3, #C1R4, #C2R4, #C3R4*/
